@@ -18,6 +18,8 @@ Intelligent Systems*), Bifrost problem statement *"Build a Benchmarking
 Platform for AI Agents, Not Just Models"*. Team **Anicca**, Tokyo
 ([aniccaai.com](https://aniccaai.com)).
 
+**Live report from the sample run:** https://daisuke134.github.io/agentbench-arena/results/report.html
+
 ![Leaderboard](docs/report-leaderboard.png)
 
 ## What it does
@@ -98,7 +100,7 @@ Command: `python3 -m agentbench run --repeats 3`, run on 2026-11-15 at 14:19 JST
 (05:19 UTC) on Linux with Python 3.13.5 and the `mock` model backend. That is
 3 agents x 5 scenarios x 12 tasks x 3 repeats = **540 runs in 9.3 s**. Raw
 traces: [`results/runs.jsonl`](results/runs.jsonl). Report:
-[`results/report.html`](results/report.html) (download and open it).
+[`results/report.html`](results/report.html) ([open live](https://daisuke134.github.io/agentbench-arena/results/report.html)).
 
 All three agents are **baselines we wrote to exercise the harness**. They are
 not entries and not claims about any product or model:
