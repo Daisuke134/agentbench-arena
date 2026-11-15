@@ -1,0 +1,16 @@
+[project]
+name = "agentbench-arena"
+version = "0.1.0"
+description = "Benchmark AI agents, not just models: framework-agnostic harness with fault injection and run traces."
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+agentbench = "agentbench.cli:main"
+
+[tool.setuptools]
+packages = ["agentbench"]

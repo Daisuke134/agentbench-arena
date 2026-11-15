@@ -1,0 +1,7 @@
+{
+  "agents": [
+    {"name": "scripted-py (baseline)", "type": "subprocess", "cmd": ["python3", "agents/scripted_agent.py"]},
+    {"name": "planner-mockllm (baseline)", "type": "callable", "target": "agents.planner_agent:run"},
+    {"name": "naive-node (baseline)", "type": "subprocess", "cmd": ["node", "agents/naive_agent.js"]}
+  ]
+}
